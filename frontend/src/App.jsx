@@ -50,9 +50,9 @@ function App() {
           <section className="py-5 text-center container">
             <div className="row py-lg-5">
               <div className="col-lg-6 col-md-8 mx-auto">
-                <h1 className="fw-light">Album example</h1>
+                <h1 className="fw-light">Zeynep Fotoğraf Albümü</h1>
                 <p className="lead text-muted">
-                  Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+                  Zeynep'in Bebeklik Fotoğrafları
                 </p>
                 <p>
                   <a href="#" className="btn btn-primary my-2">Main call to action</a>
@@ -98,7 +98,7 @@ function App() {
             <p className="float-end mb-1">
               <a href="#">Back to top</a>
             </p>
-            <p className="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <p className="mb-1">Album example</p>
             <p className="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
           </div>
         </footer>
