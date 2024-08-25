@@ -7,6 +7,9 @@ export default defineConfig({
   server: 
   {
     port: 5173, // Port numarasını burada belirleyin
-    host: true  // Yerel ağ üzerinden erişilebilirliği sağlar
+    host: true,  // Yerel ağ üzerinden erişilebilirliği sağlar
+    proxy:{
+      '/api':'http://localhost:8080'
+    }
   }
 })
